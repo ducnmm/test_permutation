@@ -75,7 +75,7 @@ export default function Home() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            className={`flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+            className={`flex-1 border border-gray-300 rounded-lg px-4 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 ${
               isLoading ? 'bg-gray-100 text-gray-500' : ''
             }`}
             placeholder={isLoading ? "Waiting for response..." : "Type your message..."}
